@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin: 15px 20% 15px;
+}
+table, th {
+    width: 60%;
+    border-bottom: 1px solid black;
+    text-align: start;
+    font-weight: normal;
+  }
+  table{
+      border-bottom: none;
+  }
+  h1, h2 a{
+      color: green;
+  }
+  .pasta::before{
+    content: url(../imagenes/iconopasta.png)
+}
+.pas p:first-of-type{
+    font-style: italic;
+}
